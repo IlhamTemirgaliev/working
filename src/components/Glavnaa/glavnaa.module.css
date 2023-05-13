@@ -9,6 +9,13 @@
   padding: 40px;
   margin: 0 auto;
   display: flex;
-  width: 100%;
+  max-width: 1600px;
+gap: 50px;
+
   flex-wrap: wrap;
+}
+
+.title{
+    font-family: Oswald;
+font-weight: 600;
 }
