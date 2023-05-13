@@ -24,8 +24,5 @@ const Registr = () => {
   </div>
   )
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> 3c6fc5ccb15fcb981100fed1d13d162044d855d6
 export default Registr
