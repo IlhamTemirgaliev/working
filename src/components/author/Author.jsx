@@ -1,4 +1,4 @@
-import style from "./authot.module.css";
+import style from "./registr.module.css";
 const Rigistr =  () => {
   return(
 

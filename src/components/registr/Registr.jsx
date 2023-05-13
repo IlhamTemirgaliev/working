@@ -32,4 +32,4 @@ const Rigistr =  () => {
 
   )
 }
-export default Rigistr
+export default Registr
