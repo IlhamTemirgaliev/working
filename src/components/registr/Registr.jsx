@@ -1,35 +1,28 @@
-import style from "./registr.module.css";
-const Rigistr =  () => {
-  return(
 
-    <div className={style.bg}>
-      <div className={style.registr}>
-        <div className={style.registr_info}>
-          <h2>Регистрация</h2>
-          <p>Заполните все поля чтобы начать свой путь 🚀</p>
-            <div className={style.registr_info}>
-              <div className={style.input}>
-                <p>Никнейм</p>
-                <input type="text" />
-              </div>
-              <div className={style.input}>
-                <p>E-Mail</p>
-                <input type="text" />
-              </div>
-              <div className={style.input}>
-                <p>Пароль</p>
-                <input type="text" />
-              </div>
-              <div className={style.input}>
-                <p>Подтвердить пароль</p>
-                <input type="text" />
-              </div>
-              <button type="submit" className={style.btn}>Регистрация</button>
-            </div>
-        </div>
-      </div>
+import style from './index.module.css'
+const Registr = () => {
+  return (
+    <div className={style.bgg}>
+    <div className={style.registrs}>
+
+<h1 className={style.titles}>Sigin in</h1>
+
+
+<form className={style.inputbloks}  action="">
+    <input className={style.inputs} type="text"  placeholder='name'/> 
+    <input  className={style.inputs}  type="text"  placeholder='paswword'/>
+    <input  className={style.inputs}  type="text"  placeholder='gmail'/>
+   <div className={style.blokbtns}> <button className={style.buttons}>Sign<label className={style.label}> in</label></button></div>
+</form>
+
+
+
+
+
+
     </div>
-
+  </div>
   )
 }
-export default Rigistr
+
+export default Registr

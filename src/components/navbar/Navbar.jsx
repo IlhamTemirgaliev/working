@@ -10,10 +10,10 @@ const Navbar = () => {
 <NavLink to='/admins' className={styles.admins}>
     Admins
 </NavLink>
-<NavLink className={styles.join}>
+<NavLink to='/Auf' className={styles.join}>
     sign in 
 </NavLink>
-<NavLink className={styles.registr}>
+<NavLink to='/Reg' className={styles.registr}>
     sign on 
 </NavLink>
         </nav>

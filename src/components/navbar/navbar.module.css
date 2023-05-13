@@ -4,8 +4,8 @@
    align-items: center;
    background: #333333;
    height: 120px;
-border-radius: 0px 0px 20px 20px;
 
+border-bottom: 2px solid #ffcc00;
 }
 .blok{
     margin: 0 auto ;
